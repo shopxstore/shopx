@@ -15,9 +15,15 @@ body {
   line-height: 28px;
   color: #6a6a6a;
   font-size: 14px;
-  background-color: #eff2f1;
+  /* background-color: #eff2f1; */
+  background-color: #2a2a2a;
+  color: white;
+  /* to make light color uncomment items */
+  /* .feature h3 */
+  /* .section-title */
   z-index: 1;
   /* background-color: #2a3330; */
+  /* change theme on button */
  }
 
 a {
@@ -384,7 +390,9 @@ a {
       color: #ffffff; }
 
 .section-title {
-  color: #2f2f2f; }
+  /* color: #2f2f2f; */
+  color: #ffffff;
+}
 
 .product-section {
   padding: 4rem 0; }
@@ -465,7 +473,9 @@ a {
       height: 70%; }
 
 .why-choose-section {
-  padding: 7rem 0; }
+  padding: 7rem 0;
+
+}
   .why-choose-section .img-wrap {
     position: relative; }
     .why-choose-section .img-wrap:before {
@@ -500,7 +510,9 @@ a {
       bottom: 0; }
   .feature h3 {
     font-size: 14px;
-    color: #2f2f2f; }
+    /* color: #2f2f2f;  */
+    color: #ffffff; 
+  }
   .feature p {
     font-size: 14px;
     line-height: 22px;
