@@ -165,10 +165,52 @@ a {
     display: block;
   }
 
+.posters{
+  display: flex;
+  flex-direction: row;
+  
+}
+.float{
+  position: fixed;
+  height: fit-content;
+  width: fit-content;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  color: white;
+  z-index: 9;
+}
+.float a:hover{
+  width:100px;
+  color:red;
+}
 
-
-
-
+@media (min-width: 768px){
+  .subscription-form{
+    margin-left: 200px;
+  }
+}
+@media (min-width: 992px){
+  .subscription-form{
+    margin-top: 200px;
+  }
+}
+@media (max-width: 768px){
+  #aboutus2{
+    display: none;
+  }
+  #aboutbutton{
+    display: block;
+  }
+}
+@media (min-width: 992px){
+  #aboutus2{
+    display: block;
+  }
+  #aboutbutton{
+    display: none;
+  }
+}
 
 
 
